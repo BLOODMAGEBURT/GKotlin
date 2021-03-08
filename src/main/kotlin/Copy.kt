@@ -14,6 +14,10 @@ fun main() {
     val copy = bird.copy()
     copy.color = "blue"
 
+    val (weight, age, color) = bird;
+
+    println("weight:$weight, age:$age, color:$color")
+
 
     println(bird.dice === copy.dice) // true, 证明是浅拷贝
 
