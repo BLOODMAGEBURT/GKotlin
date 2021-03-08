@@ -7,6 +7,11 @@
  */
 data class Bird(val weight: Double, var age: Int, var color: String, var dice: Dice)
 
+object SingleObject {
+    var name: String = "xu"
+    var age: Int = 12
+}
+
 
 fun main() {
     val bird = Bird(20.00, 19, "red", Dice(6))

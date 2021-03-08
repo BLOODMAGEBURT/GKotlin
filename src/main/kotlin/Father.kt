@@ -6,6 +6,9 @@
  * @since 1.0.0
  */
 open class Father(var name: String, var age: Int) {
+
+    val sex: String = "male"
+
     open fun eat() {
         println("father eat meat")
     }

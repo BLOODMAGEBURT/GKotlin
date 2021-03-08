@@ -8,7 +8,6 @@
 class Son(name: String, age: Int) : Father(name, age) {
     override fun eat() {
         println("son eat too $name")
-
     }
 
 
